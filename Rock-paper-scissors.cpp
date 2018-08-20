@@ -1,0 +1,62 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	string a,b,c;   cin>>a>>b>>c;
+	if(a=="rock"&&b=="scissors"&&c=="paper")
+	cout<<"?"<<endl;
+	if(a=="rock"&&b=="rock"&&c=="paper")
+	cout<<"S"<<endl;
+	if(a=="rock"&&b=="rock"&&c=="rock")
+	cout<<"?"<<endl;
+	if(a=="rock"&&b=="rock"&&c=="scissors")
+	cout<<"?"<<endl;
+	if(a=="rock"&&b=="scissors"&&c=="scissors")
+	cout<<"F"<<endl;	
+	if(a=="rock"&&b=="paper"&&c=="scissors")
+	cout<<"?"<<endl;
+	if(a=="rock"&&b=="paper"&&c=="paper")
+	cout<<"?"<<endl;
+	if(a=="rock"&&b=="paper"&&c=="rock")
+	cout<<"M"<<endl;	
+	if(a=="rock"&&b=="scissors"&&c=="rock")
+	cout<<"?"<<endl;
+										
+	if(a=="scissors"&&b=="rock"&&c=="paper")
+	cout<<"?"<<endl;
+	if(a=="scissors"&&b=="scissors"&&c=="paper")
+	cout<<"?"<<endl;
+	if(a=="scissors"&&b=="scissors"&&c=="scissors")
+	cout<<"?"<<endl;
+	if(a=="scissors"&&b=="scissors"&&c=="rock")
+	cout<<"S"<<endl;
+	if(a=="scissors"&&b=="rock"&&c=="rock")
+	cout<<"?"<<endl;
+	if(a=="scissors"&&b=="rock"&&c=="scissors")
+	cout<<"M"<<endl;
+	if(a=="scissors"&&b=="paper"&&c=="paper")
+	cout<<"F"<<endl;
+	if(a=="scissors"&&b=="paper"&&c=="rock")
+	cout<<"?"<<endl;
+	if(a=="scissors"&&b=="paper"&&c=="scissors")
+	cout<<"?"<<endl;
+	
+	if(a=="paper"&&b=="rock"&&c=="paper")
+	cout<<"?"<<endl;
+	if(a=="paper"&&b=="rock"&&c=="scissors")
+	cout<<"?"<<endl;
+	if(a=="paper"&&b=="rock"&&c=="rock")
+	cout<<"F"<<endl;
+	if(a=="paper"&&b=="scissors"&&c=="paper")
+	cout<<"M"<<endl;
+	if(a=="paper"&&b=="scissors"&&c=="rock")
+	cout<<"?"<<endl;
+	if(a=="paper"&&b=="scissors"&&c=="scissors")
+	cout<<"?"<<endl;
+	if(a=="paper"&&b=="paper"&&c=="paper")
+	cout<<"?"<<endl;
+	if(a=="paper"&&b=="paper"&&c=="rock")
+	cout<<"?"<<endl;
+	if(a=="paper"&&b=="paper"&&c=="scissors")
+	cout<<"S"<<endl;
+}
